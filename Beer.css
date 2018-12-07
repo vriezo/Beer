@@ -1,7 +1,6 @@
 body{
 	background-color: #f3f3f3;
-	padding:0;
-	margin:0;
+	font-family: monospace; 
 }
 
 .page {
@@ -10,31 +9,34 @@ body{
 	border-radius: 15px;
 	background-color: white;
 	overflow: hidden;
+	width: 850px; 
 }
 
 .main-nav{
 	background-image:url(https://upload.wikimedia.org/wikipedia/commons/7/71/2010-kodiak-bear-1.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position:center -60px;
-	padding: 100px 20px 0px 20px;
+	background-position:center -56px;
+	padding: 150px 20px 0px 20px; 
+	text-decoration: none; 
 }
 
 .main-nav a{
 	display:inline-block;
-	border-radius: 5px 0px 0px 0px;
+	border-radius: 6px 6px 0px 0px;
 	border-bottom: 10px solid white;
 	background-color:rgba(255, 255, 255, 0.64);
 	color:black;
 	text-decoration:none;
 	padding: 5px 10px;
 	position:relative;
-	top:-10px;
-	transition: top 300ms ease;
+	top:10px;
+	transition: top 200ms ease;
 }
 
 .main-nav a:hover{
 	top:5px;
+	text-decoration: none; 
 }
 
 .page-content{
@@ -43,17 +45,23 @@ body{
 
 h1{
 	background-color: #b68052;
-	margin: 20px;
+	margin: 20px -20px 20px -20px;
 	padding: 10px 20px;
-	color: aliceblue;
+	color: aliceblue; 
+	
 }
 
 h2{
   font-family:Georgia;
+} 
+
+.top-nav a{ 
+text-decoration: none; 
 }
 
 .top-nav ul{
 	list-style-type:none;
+	text-decoration: none; 
 }
 
 .top-nav ul li{
