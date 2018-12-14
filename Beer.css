@@ -48,11 +48,13 @@ h1{
 	margin: 20px -20px 20px -20px;
 	padding: 10px 20px;
 	color: aliceblue; 
+	padding-left: 21px; 
 	
 }
 
 h2{
   font-family:Georgia;
+  padding-left: 0px; 
 } 
 
 .top-nav a{ 
@@ -72,4 +74,13 @@ text-decoration: none;
 
 .top-nav ul li:hover{
 	left: 4px;
+}
+
+.video{ 
+margin: 20px -20px -20px -20px; 
+padding-right: 0px
+}
+
+.image{ 
+margin: 0px -20px 0px -20px
 }
